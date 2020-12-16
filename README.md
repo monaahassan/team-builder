@@ -1,4 +1,4 @@
-# Module Project: Forms - Team Builder
+cd # Module Project: Forms - Team Builder
 
 This project allows you to practice the concepts and techniques learned in this module and apply them in a concrete project. This module explored Form management in React. You learned about controled inputs, semantic HTML, some ES6 tools like the spread operator and computed properties, and synthetic events. In your project you will demonstrate proficiency of these subjects and principles by creating an application using each of these.
 
@@ -10,15 +10,15 @@ In this project you'll build an app that will keep track of memebers of a team. 
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] Use `npx create-react-app team-builder --use-npm` or `create-react-app team-builder` to initiate the project.
-- [ ] CD into your `team-builder` directory
-- [ ] Start up the app using `npm start`
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your team lead as collaborator on Github.
+- [x] Clone your OWN version of the repository in your terminal
+- [x] Use `npx create-react-app team-builder --use-npm` or `create-react-app team-builder` to initiate the project.
+- [x] CD into your `team-builder` directory
+- [x] Start up the app using `npm start`
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 ### Task 2: Minimum Viable Product
 
@@ -27,7 +27,7 @@ In this project you'll build an app that will keep track of memebers of a team. 
 
 #### Setup your state
 
-- [ ] Import the `useState` hook and set up state to keep your team members list.
+- [x] Import the `useState` hook and set up state to keep your team members list.
 - [ ] Give the state variable you just declared a default value. You will need to keep track of a list of team members and each team member will have several key/value pairs associated with them.
 - [ ] Render your list of team members.
 
@@ -40,9 +40,9 @@ In this project you'll build an app that will keep track of memebers of a team. 
 
 Now you are finished with MVP! Move on to the stretch goals at the bottom. The first is to add the functionality to edit members. As this is a very complicated process, steps have been included here to help you through that.
 
-### Task 3: Add the edit functionality (STRETCH)
+<!-- ### Task 3: Add the edit functionality (STRETCH)
 
-Next we're going to reuse the `Form` component to edit team members. You can try to accomplish this goal completely on your own, or you can follow the steps below. These steps assume your `Form` maintains its own state.
+Next we're going to reuse the `Form` component to edit team members. You can try to accomplish this goal completely on your own, or you can follow the steps below. These steps assume your `Form` maintains its own state. -->
 
 #### Get App.js ready for editing members
 
@@ -61,7 +61,7 @@ The flow for editing is hard to conceptualize. It should go something like this:
 1. The user updates the member info
 1. Uh... now what do we do with this new data? If we submit the form, it will just add a new member 😫. Never fear! We will fix this in the next section!
 
-#### Form submit (STRETCH CONT.)
+<!-- #### Form submit (STRETCH CONT.)
 
 This is an interesting bit of architecture we've done so far. We have built a reusable form that can be used to add a team member, or edit a team member. The last piece of the puzzle is this - when we submit the form, do we run an `addMember` function, or an `editMember` function? And how will the form know? Well, our form knows if we are editing a team member by whether or not there is the prop `memberToEdit`. (P.S. This can also be done with a boolean - something like `isEditing`...)
 
@@ -78,8 +78,8 @@ After finishing your required elements, you can push your work further. These go
 
 - [ ] Follow the steps above to edit members. This is difficult to do, and the architecture is tough. But it is a great skill to practice! Pay attention the the implementation details, and to the architecture. There are many ways to accomplish this. When you finish, can you think of another way?
 - [ ] Build another layer of your App so that you can keep track of multiple teams, each with their own encapsulated list of team members.
-- [ ] Look into the various strategies around form validation. What happens if you try to enter a number as a team-members name? Does your App allow for that? Should it? What happens if you try and enter a function as the value to one of your fields? How could this be dangerous? How might you prevent it?
-- [ ] Style the forms. There are some subtle browser defaults for input tags that might need to be overwritten based on their state (active, focus, hover, etc.); Keep those CSS skill sharp.
+- [ ] Look into the various strategies around form validation. What happens if you try to enter a number as a team-members name? Does your App allow for that? Should it? What ha ppens if you try and enter a function as the value to one of your fields? How could this be dangerous? How might you prevent it?
+- [ ] Style the forms. There are some subtle browser defaults for input tags that might need to be overwritten based on their state (active, focus, hover, etc.); Keep those CSS skill sharp. -->
 
 ## Submission Format
 
